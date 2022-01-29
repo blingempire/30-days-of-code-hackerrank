@@ -5,7 +5,7 @@ public class Day1DataTypes {
 
         int i = 12;
         double d = 4.0;
-        String s = "HackerRank Day 1: Data Types Challenge!";
+        String s = "HackerRank ";
 
         Scanner scan = new Scanner(System.in);
 
