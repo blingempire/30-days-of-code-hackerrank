@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class Calculator{
+class Calculator2{
     int power(int a, int b) throws Exception {
         if(a < 0 || b < 0) {
             throw new Exception("n and p should be non-negative");
@@ -21,7 +21,7 @@ public class Day17MoreExceptions {
 
             int n = in.nextInt();
             int p = in.nextInt();
-            Calculator myCalculator = new Calculator();
+            Calculator2 myCalculator = new Calculator2();
             try {
                 int ans = myCalculator.power(n, p);
                 System.out.println(ans);
